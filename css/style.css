@@ -173,11 +173,13 @@ button {
 /* =========================== */
 .characteristics {
     display: flex;
+    padding-bottom: 163px;
 }
 .container {
 }
 .characteristics__list {
     display: flex;
+    /* justify-content: center; */
 }
 .characteristics__item:not(:last-child) {
     margin-right: 126px;
@@ -195,3 +197,77 @@ button {
     color: #49464F;
     text-align: left;
 }
+
+.tel__img {
+    height: 100%;
+    background-image: url('../images/bike/mobile.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* ======================== */
+
+.stay {
+    background-image: url(/images/bc/stand-bc.jpg);
+    background: no-repeat cover center;
+    padding-top: 188px;
+    padding-left: 70px;
+    padding-bottom: 77px;
+}
+
+
+.stay__title {
+    margin-bottom: 39px;
+    letter-spacing: 2.7px;
+}
+.title {
+}
+.stay__text {
+    max-width: 310px;
+    margin-bottom: 175px;
+}
+.stay__list {
+    display: flex;
+}
+.stay__item {
+    max-width: 296px;
+    margin-right: 64px;
+}
+.stay__img {
+    margin-bottom: 77px;
+}
+.stay__item-text {
+    font-size: 23px;
+    line-height: 27px;
+    color:#49464F;
+}
+/* ====================== */
+
+.movement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 165px;
+}
+.movement__img {
+}
+.movement__container {
+    max-width: 510px;
+    color: #49464F;
+
+}
+.movement__title {
+    font-size: 71px;
+    line-height: 81px;
+    letter-spacing: 2.7px;
+    text-align: center;
+    margin-bottom: 34px;
+}
+.movement__text {
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+}
+
+
+
